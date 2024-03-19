@@ -1,0 +1,74 @@
+\doxysection{Time Class Reference}
+\hypertarget{class_time}{}\label{class_time}\index{Time@{Time}}
+
+
+Collaboration diagram for Time\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_time_ad41532fa9dca778133707905c27eddc9}{Time}} (int h, int m)
+\item 
+int \mbox{\hyperlink{class_time_aacb846812dccbf244d52e0f237ad0026}{get\+Hour}} () const
+\item 
+int \mbox{\hyperlink{class_time_a809250b6139afebe7c41a1fe6c857172}{get\+Minute}} () const
+\item 
+bool \mbox{\hyperlink{class_time_a59a0b94a48a14950cca38b29c78c5ebd}{operator$<$}} (const \mbox{\hyperlink{class_time}{Time}} \&other) const
+\item 
+bool \mbox{\hyperlink{class_time_a6641072fd269c2d810b98956f80dacd3}{operator==}} (const \mbox{\hyperlink{class_time}{Time}} \&other) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_time_a1030d33220cad368b7b8640250cd6970}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{class_time}{Time}} \&time)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_time_ad41532fa9dca778133707905c27eddc9}\label{class_time_ad41532fa9dca778133707905c27eddc9} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{Time()}{Time()}}
+{\footnotesize\ttfamily Time\+::\+Time (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_time_aacb846812dccbf244d52e0f237ad0026}\label{class_time_aacb846812dccbf244d52e0f237ad0026} 
+\index{Time@{Time}!getHour@{getHour}}
+\index{getHour@{getHour}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{getHour()}{getHour()}}
+{\footnotesize\ttfamily int Time\+::get\+Hour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_time_a809250b6139afebe7c41a1fe6c857172}\label{class_time_a809250b6139afebe7c41a1fe6c857172} 
+\index{Time@{Time}!getMinute@{getMinute}}
+\index{getMinute@{getMinute}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{getMinute()}{getMinute()}}
+{\footnotesize\ttfamily int Time\+::get\+Minute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_time_a59a0b94a48a14950cca38b29c78c5ebd}\label{class_time_a59a0b94a48a14950cca38b29c78c5ebd} 
+\index{Time@{Time}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Time\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_time_a6641072fd269c2d810b98956f80dacd3}\label{class_time_a6641072fd269c2d810b98956f80dacd3} 
+\index{Time@{Time}!operator==@{operator==}}
+\index{operator==@{operator==}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Time\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_time_a1030d33220cad368b7b8640250cd6970}\label{class_time_a1030d33220cad368b7b8640250cd6970} 
+\index{Time@{Time}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{museum_8cpp}{museum.\+cpp}}\end{DoxyCompactItemize}
